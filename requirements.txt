@@ -1,7 +1,1 @@
 streamlit
-pandas
-requests
-Image
-os
-time
-numpy
