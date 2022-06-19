@@ -125,7 +125,7 @@ response = None
 
 with row1_1:
 
-    st.image('../img/logo.png', width=300)
+    st.image('/img/logo.png', width=300)
   
     st.markdown("""
             Încarcă o image a fundului de ochi pentru a putea beneficia de o examinare gratuită folosindu-te de AI-ul nostru .
@@ -159,13 +159,13 @@ with row1_1:
 
 with row1_2:
     if uploaded_file is None:
-        st.image('../img/gif-to-jpeg.jpg')
+        st.image('/img/gif-to-jpeg.jpg')
     if uploaded_file is not None and response == None:
         st.markdown('''
             #
             #####
             ''')
-        st.image('../img/bg-img.gif')
+        st.image('/img/bg-img.gif')
         #st.write('Waiting for your upload')
     if response:
         st.markdown('''
